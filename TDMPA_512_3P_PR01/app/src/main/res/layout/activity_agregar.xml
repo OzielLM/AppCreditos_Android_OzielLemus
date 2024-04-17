@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AgregarActivity">
+
+    <View
+        android:id="@+id/view10"
+        android:layout_width="413dp"
+        android:layout_height="675dp"
+        android:background=" #d5c3b5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pretendard_bold"
+        android:text="Administrador"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/btnVolverAgregar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#c09b6e"
+        android:text="Volver"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <View
+        android:id="@+id/view11"
+        android:layout_width="334dp"
+        android:layout_height="550dp"
+        android:layout_marginEnd="36dp"
+        android:layout_marginBottom="76dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#B5FBF4F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <EditText
+        android:id="@+id/txtNuevoUsuario"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Usuario"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/view11"
+        app:layout_constraintEnd_toEndOf="@+id/view11"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/view11"
+        app:layout_constraintTop_toTopOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <EditText
+        android:id="@+id/txtPasswordNuevo"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toBottomOf="@+id/view11"
+        app:layout_constraintEnd_toEndOf="@+id/view11"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/view11"
+        app:layout_constraintTop_toTopOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.176" />
+
+    <EditText
+        android:id="@+id/txtNombre"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/view11"
+        app:layout_constraintEnd_toEndOf="@+id/view11"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/view11"
+        app:layout_constraintTop_toTopOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.306" />
+
+    <EditText
+        android:id="@+id/txtApellido"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Apellido"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/view11"
+        app:layout_constraintEnd_toEndOf="@+id/view11"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/view11"
+        app:layout_constraintTop_toTopOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.432" />
+
+    <EditText
+        android:id="@+id/txtCarrera"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Carrera"
+        android:inputType="text"
+        app:layout_constraintBottom_toBottomOf="@+id/view11"
+        app:layout_constraintEnd_toEndOf="@+id/view11"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/view11"
+        app:layout_constraintTop_toTopOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.556" />
+
+    <EditText
+        android:id="@+id/txtCreditosDeportivos"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Creditos Deportivos"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/view11"
+        app:layout_constraintEnd_toEndOf="@+id/view11"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/view11"
+        app:layout_constraintTop_toTopOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.673" />
+
+    <EditText
+        android:id="@+id/txtCreditosCulturales"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Creditos Culturales"
+        android:inputType="number"
+        app:layout_constraintBottom_toBottomOf="@+id/view11"
+        app:layout_constraintEnd_toEndOf="@+id/view11"
+        app:layout_constraintHorizontal_bias="0.475"
+        app:layout_constraintStart_toStartOf="@+id/view11"
+        app:layout_constraintTop_toTopOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.785" />
+
+    <Button
+        android:id="@+id/btnAgregarNuevoUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint=" #bea286"
+        android:text="Agregar Usuario"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view11"
+        app:layout_constraintEnd_toEndOf="@+id/view11"
+        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintStart_toStartOf="@+id/view11"
+        app:layout_constraintTop_toTopOf="@+id/view11"
+        app:layout_constraintVertical_bias="0.944" />
+</androidx.constraintlayout.widget.ConstraintLayout>

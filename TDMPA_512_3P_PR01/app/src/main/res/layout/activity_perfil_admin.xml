@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fcf4f4"
+    tools:context=".PerfilAdminActivity">
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="413dp"
+        android:layout_height="675dp"
+        android:background=" #d5c3b5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/pretendard_bold"
+        android:text="Administrador"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.064"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.022" />
+
+    <Button
+        android:id="@+id/btnVolverAdmin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#c09b6e"
+        android:text="Volver"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.95"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.011" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="334dp"
+        android:layout_height="519dp"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#B5FBF4F4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.493"
+        app:layout_constraintStart_toStartOf="@+id/view"
+        app:layout_constraintTop_toTopOf="@+id/view"
+        app:layout_constraintVertical_bias="0.32" />
+
+    <Button
+        android:id="@+id/btnAgregarUsuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint=" #bea286"
+        android:fontFamily="@font/pretendard_regular"
+        android:text="Agregar Nuevo Usuario"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.085" />
+
+    <Button
+        android:id="@+id/btnCambiarContraseña"
+        android:layout_width="285dp"
+        android:layout_height="77dp"
+        android:backgroundTint=" #bea286"
+        android:fontFamily="@font/pretendard_regular"
+        android:text="Cambiar Contraseña a Usuario"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3" />
+
+    <Button
+        android:id="@+id/btnCreditos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint=" #bea286"
+        android:fontFamily="@font/pretendard_regular"
+        android:text="Agregar Creditos"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="@+id/view3"
+        app:layout_constraintEnd_toEndOf="@+id/view3"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintStart_toStartOf="@+id/view3"
+        app:layout_constraintTop_toTopOf="@+id/view3"
+        app:layout_constraintVertical_bias="0.884" />
+</androidx.constraintlayout.widget.ConstraintLayout>
